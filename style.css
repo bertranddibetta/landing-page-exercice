@@ -1,5 +1,12 @@
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin-left: 3%;
+    width: 100%;
+    height: auto;
 }
 
 .header {
@@ -48,14 +55,13 @@ body {
     margin-right: 3%;
 }
 
-.hero-image {
-    display: flex;
-    justify-content: left;
-    margin-left: 3%;
-}
-
 .hero-slogan {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
