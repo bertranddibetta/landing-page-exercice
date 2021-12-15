@@ -1,3 +1,7 @@
+html{
+    font-size: 16px;
+}
+
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +17,7 @@ img {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 16px 15%;
+    padding: 1.125rem 15%;
 }
 
 .logo {
@@ -33,10 +37,10 @@ img {
 }
 
 .nav li {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-decoration: none;
     color: #e5e7eb;
-    margin-right: 16px;
+    margin-right: 1.125rem;
 }
 
 .nav li:last-child {
@@ -47,7 +51,8 @@ img {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 96px 15%;
+    padding: 3rem 15%;
+    align-items: center;
 }
 
 .hero-container {
@@ -57,11 +62,23 @@ img {
 
 .hero-slogan {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
+    line-height: 1;
 }
 
 .hero-text {
+    margin-top: 1.125rem;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.button a {
+    margin-top: 1.125rem;
+    text-decoration: none;
+    color: #e5e7eb;
+    display: inline-block;
+    padding: .5rem 1.125rem;
+    border-radius: 5px;
+    background-color: #3882f6;
 }
