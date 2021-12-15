@@ -56,8 +56,7 @@ img {
 }
 
 .hero-container {
-    max-width: 35%;
-    margin-right: 3%;
+    max-width: 50%;
 }
 
 .hero-slogan {
@@ -81,4 +80,41 @@ img {
     padding: .5rem 1.125rem;
     border-radius: 5px;
     background-color: #3882f6;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 3rem 15%;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container-features {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.feature {
+    width: 20%;
+}
+
+.feature-image {
+    width: 100%;
+    padding-top: 100%;
+    border: #3882f6 solid 3px;
+    border-radius: 15%;
+}
+
+.feature p {
+    text-align: center;
+    font-size: 1.125rem;
 }
